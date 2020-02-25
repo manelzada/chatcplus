@@ -24,7 +24,7 @@ int main()
   controle=n; //iguala o controle com o numero de linhas do arquivo para nao exibir o
               //conteudo do arquivo antes da rotina principal ser executada
 
-  for(;;){//um laço infinito
+  for(;;){//um laÃ§o infinito, equivale ao while true
     arquivo.open("chat.dll");//abre o arquivo
     n=0;//leva o contador de linha para zero
     arquivo.clear();//limpa os sinalizadores
@@ -44,9 +44,9 @@ int main()
       controle++;//incrementa o controle de linhas exibidas
       arquivo.close();
     }
-  Sleep(500);//pausa a execução para nao sobrecarregar o sistema
-  }//final do laço infinito
+  Sleep(500);//pausa a execuÃ§Ã£o para nao sobrecarregar o sistema
+  }//final do laÃ§o infinito
   
-  arquivo.close();//fecha o arquivo,(embora a execução nunca cheque aqui)
+  arquivo.close();//fecha o arquivo,(mas a execuÃ§Ã£o nunca cheque aqui)
     return 0;//retorna
 }
